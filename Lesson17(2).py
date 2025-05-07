@@ -1,0 +1,11 @@
+# Кортежи имеют всего два метода - count() and index()
+
+numbers = (445, 889, 445, 445, 9894, 451)
+print(numbers.count(445))
+print(numbers.count(5))
+print(numbers.index(451))
+numbers_list = list(numbers)
+my_nums = tuple(numbers_list)
+print(my_nums)
+numbers_list.append(78999)
+print(numbers_list)
